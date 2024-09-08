@@ -13,8 +13,6 @@ Ensure Node Modules Are Installed: If you haven’t run npm install in the proje
 **npm install**
 Check package.json Scripts: Ensure that the dev script in your package.json correctly references Vite. It should look something like this:
 
-json
-Copy code
 "scripts": {
   "dev": "vite",
   "build": "vite build",
